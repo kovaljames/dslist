@@ -31,3 +31,10 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Ignore Docker Compose generated data volumes
+.data/
+
+# Ignore local environment variables or sensitive files not meant for version control
+.env
+*.log
